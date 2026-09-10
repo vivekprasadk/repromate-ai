@@ -2,6 +2,8 @@
 
 Standalone hackathon prototype: bug intake, screenshot preview, evidence-linked observations, proposed reproduction steps, questions, hypotheses, test cases, and Markdown export. Node.js 20+; no npm dependencies.
 
+**Live demo:** https://vivekprasadk.github.io/repromate-ai/
+
 The GitHub Pages build runs the labeled rule-based demo entirely in the browser. It does not upload inputs or call a language model. The local Node version can connect to Ollama for real AI analysis.
 
 ## Run
