@@ -4,6 +4,12 @@ ReproMate AI is a local-first bug-investigation assistant. It converts a bug des
 
 The application does **not** execute reproduction steps or confirm a root cause. It organizes the available evidence, identifies contradictions, asks for missing information and proposes checks for a human reviewer.
 
+## Live hosted demo
+
+**[Open ReproMate AI on GitHub Pages](https://vivekprasadk.github.io/repromate-ai/)**
+
+The hosted site is the deterministic demonstration. It runs entirely in the browser, does not call AI and does not analyze an uploaded screenshot. For genuine local text, log and screenshot analysis, install Ollama and follow the Windows setup below.
+
 ## Project status
 
 This is a hackathon prototype with two delivery modes:
