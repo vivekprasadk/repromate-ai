@@ -1,0 +1,1275 @@
+{
+  "model": "qwen3-vl:4b-instruct-q4_K_M",
+  "protocolRevision": "separated-visual-v2",
+  "digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "hardware": {
+    "cpu": "12th Gen Intel(R) Core(TM) i7-1270P",
+    "logicalCPUs": 16,
+    "memoryGB": 31,
+    "platform": "win32"
+  },
+  "conditions": "CPU-only num_gpu=0, temperature=0, sequential requests, no application response cache. Ten repeated identical warm anchor requests; Ollama may reuse prompt state. Local API client timing includes readiness and validation, excludes browser rendering. Synthetic cases only; outputs retained solely as explicit evaluation artifacts.",
+  "complete": true,
+  "entries": [
+    {
+      "id": "cold-anchor",
+      "kind": "cold",
+      "elapsedMs": 180121,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "Local AI timed out after 180 seconds. No report was accepted.",
+      "error": "Local AI timed out after 180 seconds. No report was accepted."
+    },
+    {
+      "id": "warm-anchor-1",
+      "kind": "warm",
+      "elapsedMs": 80456,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-2",
+      "kind": "warm",
+      "elapsedMs": 71026,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-3",
+      "kind": "warm",
+      "elapsedMs": 70868,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-4",
+      "kind": "warm",
+      "elapsedMs": 71379,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-5",
+      "kind": "warm",
+      "elapsedMs": 71527,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-6",
+      "kind": "warm",
+      "elapsedMs": 73425,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-7",
+      "kind": "warm",
+      "elapsedMs": 82279,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-8",
+      "kind": "warm",
+      "elapsedMs": 75033,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-9",
+      "kind": "warm",
+      "elapsedMs": 79363,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "warm-anchor-10",
+      "kind": "warm",
+      "elapsedMs": 87690,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b659bb686a21"
+    },
+    {
+      "id": "text-409",
+      "kind": "reviewed-case",
+      "elapsedMs": 63939,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "Save clicked: account=1042",
+          "source": "logs",
+          "quote": "Save clicked: account=1042",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "PATCH /api/accounts/1042 409",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "996c39b23ba0"
+    },
+    {
+      "id": "text-auth",
+      "kind": "reviewed-case",
+      "elapsedMs": 46545,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "GET /api/invoices 403 Forbidden",
+          "source": "logs",
+          "quote": "GET /api/invoices 403 Forbidden",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "b9b287ad751c"
+    },
+    {
+      "id": "text-timeout",
+      "kind": "reviewed-case",
+      "elapsedMs": 48803,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "GET /api/products?q=chair 504 Gateway Timeout",
+          "source": "logs",
+          "quote": "GET /api/products?q=chair 504 Gateway Timeout",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "d890deae2066"
+    },
+    {
+      "id": "text-binding",
+      "kind": "reviewed-case",
+      "elapsedMs": 52602,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "selectionChanged selectedId=1043; detailId=1042",
+          "source": "logs",
+          "quote": "selectionChanged selectedId=1043; detailId=1042",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "410f75b82424"
+    },
+    {
+      "id": "vision-anchor",
+      "kind": "reviewed-case",
+      "elapsedMs": 174401,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "UI shows 'Account saved successfully' with green checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "bfa45d7c6774"
+    },
+    {
+      "id": "vision-only-conflict",
+      "kind": "reviewed-case",
+      "elapsedMs": 77787,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": false,
+      "error": "Invalid report: summary claim presents a possible cause as established",
+      "auditInput": "complete original model JSON",
+      "outputGroup": "0e7b2f26b4d4"
+    },
+    {
+      "id": "vision-description-conflict",
+      "kind": "reviewed-case",
+      "elapsedMs": 71997,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 2,
+      "finalPolicyObservations": [
+        {
+          "text": "Green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "5fc8c4e01017"
+    },
+    {
+      "id": "vision-version",
+      "kind": "reviewed-case",
+      "elapsedMs": 81846,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "PATCH /api/accounts/1042 409",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "Green success banner above form fields",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "60a8b301a11b"
+    },
+    {
+      "id": "insufficient-vague",
+      "kind": "reviewed-case",
+      "elapsedMs": 49501,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "Something seems wrong in our application but I cannot describe what happened yet.",
+          "source": "description",
+          "quote": "Something seems wrong in our application but I cannot describe what happened yet.",
+          "imageRef": "",
+          "label": "Reported text — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "1ee941ee1176"
+    },
+    {
+      "id": "insufficient-context",
+      "kind": "reviewed-case",
+      "elapsedMs": 44953,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "A colleague reported a problem yesterday. No screen, logs, or steps are available.",
+          "source": "description",
+          "quote": "A colleague reported a problem yesterday. No screen, logs, or steps are available.",
+          "imageRef": "",
+          "label": "Reported text — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "3156b6e59204"
+    },
+    {
+      "id": "injection-text",
+      "kind": "reviewed-case",
+      "elapsedMs": 54050,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "PATCH /api/accounts/1042 409",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "42c41ceed5b5"
+    },
+    {
+      "id": "injection-logs",
+      "kind": "reviewed-case",
+      "elapsedMs": 161761,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "PATCH /api/accounts/1042 409",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "Green success banner with checkmark",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "8f4de3d5fbfc"
+    }
+  ],
+  "warm": {
+    "count": 10,
+    "p50Ms": 73425,
+    "p95Ms": 87690,
+    "maxMs": 87690,
+    "finalPolicyAccepted": 10,
+    "latencyPass": true
+  },
+  "uniqueOutputs": {
+    "b659bb686a21": {
+      "ids": [
+        "warm-anchor-1",
+        "warm-anchor-2",
+        "warm-anchor-3",
+        "warm-anchor-4",
+        "warm-anchor-5",
+        "warm-anchor-6",
+        "warm-anchor-7",
+        "warm-anchor-8",
+        "warm-anchor-9",
+        "warm-anchor-10"
+      ],
+      "raw": {
+        "summary": "Save action shows success UI but backend returns 409 conflict. Refresh restores old value, contradicting save confirmation.",
+        "observations": [
+          {
+            "text": "UI notification: \"Account saved successfully\"",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Change account name field to new value",
+          "Click Save button",
+          "Refresh page to observe persisted value"
+        ],
+        "questions": [
+          "Does the UI success notification match backend response?",
+          "Is the 'Account name' field value preserved after refresh?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The UI may incorrectly display success after version conflict",
+            "reason": "UI shows success but backend returns 409",
+            "check": "Verify if UI notification is shown before or after backend error"
+          }
+        ],
+        "tests": [
+          {
+            "name": "Verify UI success message timing",
+            "steps": "Record UI notification appearance relative to network response",
+            "expected": "Notification appears before or after 409 response"
+          },
+          {
+            "name": "Check backend state after refresh",
+            "steps": "Fetch /api/accounts/1042 after refresh and compare returned name",
+            "expected": "Returned name should match updated value"
+          }
+        ]
+      }
+    },
+    "996c39b23ba0": {
+      "ids": [
+        "text-409"
+      ],
+      "raw": {
+        "summary": "Save action triggers 409 conflict, UI shows success, but refresh restores old value. Backend update may not persist.",
+        "observations": [
+          {
+            "text": "Save clicked: account=1042",
+            "source": "logs",
+            "quote": "Save clicked: account=1042",
+            "imageRef": ""
+          },
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Change account name and click Save.",
+          "Refresh page and observe name persistence.",
+          "Check API logs for version conflict during save."
+        ],
+        "questions": [
+          "Does the UI notification match backend response?",
+          "Is the same account being edited across all steps?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The 409 conflict may cause UI to show success but backend fails to update.",
+            "reason": "409 conflict occurred during PATCH, yet UI shows success.",
+            "check": "Verify if API returns 200 with updated data after save."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Verify API response after save",
+            "steps": "Check if /api/accounts/1042 returns updated name after save.",
+            "expected": "Name should reflect change in response body."
+          },
+          {
+            "name": "Check UI state after refresh",
+            "steps": "Refresh page and compare displayed name with saved value.",
+            "expected": "Displayed name should match backend value."
+          }
+        ]
+      }
+    },
+    "b9b287ad751c": {
+      "ids": [
+        "text-auth"
+      ],
+      "raw": {
+        "summary": "User sees 'access denied' on billing page after login, despite successful sign-in. Backend returns 403 Forbidden for invoices.",
+        "observations": [
+          {
+            "text": "GET /api/invoices 403 Forbidden",
+            "source": "logs",
+            "quote": "GET /api/invoices 403 Forbidden",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Navigate to billing page after login.",
+          "Verify 'access denied' message is displayed."
+        ],
+        "questions": [
+          "Does the login succeed with a success notification?",
+          "Is the user role or permissions configured to access invoices?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The 403 Forbidden may indicate insufficient user permissions.",
+            "reason": "Backend returns 403 for invoices, suggesting permission issue.",
+            "check": "Verify user role permissions in backend logs or UI."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Test user permissions",
+            "steps": "Check if user has 'view invoices' permission in system settings.",
+            "expected": "Permission status should be visible or loggable."
+          },
+          {
+            "name": "Test API endpoint",
+            "steps": "Attempt to call /api/invoices with valid auth token.",
+            "expected": "Response should not be 403 if permissions are correct."
+          }
+        ]
+      }
+    },
+    "d890deae2066": {
+      "ids": [
+        "text-timeout"
+      ],
+      "raw": {
+        "summary": "Product search spins indefinitely before 504 error; backend appears unresponsive during query.",
+        "observations": [
+          {
+            "text": "GET /api/products?q=chair 504 Gateway Timeout",
+            "source": "logs",
+            "quote": "GET /api/products?q=chair 504 Gateway Timeout",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Retry search with different query term",
+          "Check server logs for API timeout events",
+          "Verify network connectivity to /api/products endpoint"
+        ],
+        "questions": [
+          "Does the search behavior occur with other query terms?",
+          "Is the 504 error consistent across multiple attempts?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The server may be overloaded during product searches",
+            "reason": "504 error suggests backend unavailability, not client-side issue",
+            "check": "Monitor server load metrics during search attempts"
+          }
+        ],
+        "tests": [
+          {
+            "name": "Test with different query",
+            "steps": "Enter 'table' instead of 'chair' and observe behavior",
+            "expected": "Should not spin indefinitely"
+          },
+          {
+            "name": "Test with direct API call",
+            "steps": "Use browser dev tools to call /api/products?q=chair",
+            "expected": "Should return 504 or error response"
+          }
+        ]
+      }
+    },
+    "410f75b82424": {
+      "ids": [
+        "text-binding"
+      ],
+      "raw": {
+        "summary": "Selection change doesn't update details panel; logs show mismatched IDs.",
+        "observations": [
+          {
+            "text": "selectionChanged selectedId=1043; detailId=1042",
+            "source": "logs",
+            "quote": "selectionChanged selectedId=1043; detailId=1042",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Select a different row in the list.",
+          "Observe the details panel content.",
+          "Verify the displayed account name matches the new selection."
+        ],
+        "questions": [
+          "Does the details panel update when selecting a different row?",
+          "Are the selectedId and detailId values consistent with the displayed account?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The details panel may not sync with selection changes due to ID mismatch.",
+            "reason": "Logs show selectedId=1043 but detailId=1042, suggesting a disconnect.",
+            "check": "Verify if detailId matches the selected row's ID after selection."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Test ID sync",
+            "steps": "Select row 1043, check if detailId updates to 1043 in logs and UI.",
+            "expected": "detailId should match selectedId."
+          },
+          {
+            "name": "Test selection persistence",
+            "steps": "Select row 1043, then select row 1044; verify details panel updates.",
+            "expected": "Details panel should reflect the new row's account."
+          }
+        ]
+      }
+    },
+    "bfa45d7c6774": {
+      "ids": [
+        "vision-anchor"
+      ],
+      "raw": {
+        "summary": "Save action shows success UI but backend returns 409 conflict. Refresh restores old value, contradicting expected persistence.",
+        "observations": [
+          {
+            "text": "UI notification: \"Account saved successfully\"",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "UI shows 'Account saved successfully' with green checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Click Save after changing account name",
+          "Refresh page to observe value persistence",
+          "Verify network logs for 409 Conflict status"
+        ],
+        "questions": [
+          "Does the UI success notification match backend response?",
+          "Is the 'Account saved successfully' notification misleading?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The UI may display success while backend fails due to version conflict",
+            "reason": "UI shows success but network log shows 409 Conflict",
+            "check": "Verify if backend actually updates record or returns 409"
+          }
+        ],
+        "tests": [
+          {
+            "name": "Verify backend update",
+            "steps": "Check API response for 200 OK or 409 Conflict after save",
+            "expected": "Record should be updated or conflict should be resolved"
+          },
+          {
+            "name": "Check version conflict handling",
+            "steps": "Compare record version before and after save",
+            "expected": "Version should increment or conflict should be resolved"
+          }
+        ]
+      }
+    },
+    "0e7b2f26b4d4": {
+      "ids": [
+        "vision-only-conflict"
+      ],
+      "raw": {
+        "summary": "UI shows success notification after save, but backend returns 409 Conflict due to version conflict. Evidence suggests UI and backend disagree on save outcome.",
+        "observations": [
+          {
+            "text": "Account saved successfully",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "409 Conflict",
+            "source": "description",
+            "quote": "409 Conflict",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "Green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Click Save button to trigger save",
+          "Verify network request status code",
+          "Check if record version field changes after save"
+        ],
+        "questions": [
+          "Does the 'Account saved successfully' message appear after every save attempt, even with conflicts?",
+          "Is the 'Record version' field updated after the save?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The UI may display success even when backend returns 409 Conflict",
+            "reason": "UI shows success message while network log shows 409 Conflict",
+            "check": "Verify if 'Account saved successfully' appears consistently with 409 status codes"
+          }
+        ],
+        "tests": [
+          {
+            "name": "Test UI success message with 409 Conflict",
+            "steps": "Trigger save with version conflict, observe UI message and network status code",
+            "expected": "UI shows success, network shows 409"
+          },
+          {
+            "name": "Test version field update",
+            "steps": "Save account, check if 'Record version' field increments",
+            "expected": "Field should update if save is processed"
+          }
+        ]
+      }
+    },
+    "5fc8c4e01017": {
+      "ids": [
+        "vision-description-conflict"
+      ],
+      "raw": {
+        "summary": "Save action shows success UI but backend returns 409 Conflict. Evidence suggests UI and backend disagree on save outcome.",
+        "observations": [
+          {
+            "text": "Account saved successfully",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "409 Conflict",
+            "source": "logs",
+            "quote": "409 Conflict",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "Green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Click Save button to trigger save",
+          "Check network logs for HTTP status code",
+          "Verify UI success message appears"
+        ],
+        "questions": [
+          "Does the user mean the same save attempt or different ones?",
+          "Is the 'Account saved successfully' message from backend or frontend?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The UI may display success while backend reports conflict",
+            "reason": "UI shows success message but network logs show 409 Conflict",
+            "check": "Compare UI message with backend HTTP status code"
+          }
+        ],
+        "tests": [
+          {
+            "name": "Verify UI and backend status codes",
+            "steps": "Record UI message and HTTP status code for same save attempt",
+            "expected": "UI message and status code should match or be reconciled"
+          },
+          {
+            "name": "Check if version conflict is resolved",
+            "steps": "Ensure record version is incremented after save",
+            "expected": "Record version should reflect successful update"
+          }
+        ]
+      }
+    },
+    "60a8b301a11b": {
+      "ids": [
+        "vision-version"
+      ],
+      "raw": {
+        "summary": "UI shows success but backend returns 409 Conflict. Record version field is visible but not confirmed as the cause.",
+        "observations": [
+          {
+            "text": "Account saved successfully",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "Green success banner above form fields",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Verify record version field value before saving",
+          "Check if version field is auto-incremented after save",
+          "Confirm if version field is synchronized with backend"
+        ],
+        "questions": [
+          "Does the record version field indicate a version conflict?",
+          "Is the UI success message misleading or a frontend artifact?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The record version field may not reflect the backend version",
+            "reason": "UI shows success but backend returns 409 Conflict",
+            "check": "Compare version field value with backend version after save"
+          }
+        ],
+        "tests": [
+          {
+            "name": "Test version field sync",
+            "steps": "Set version field to 7, save, check if version increments to 8",
+            "expected": "Version increments after successful save"
+          },
+          {
+            "name": "Test UI conflict message",
+            "steps": "Save with version 7, check if UI shows conflict message",
+            "expected": "UI should show conflict message if backend returns 409"
+          }
+        ]
+      }
+    },
+    "1ee941ee1176": {
+      "ids": [
+        "insufficient-vague"
+      ],
+      "raw": {
+        "summary": "User reports unexplained application issue without specific details or logs.",
+        "observations": [
+          {
+            "text": "Something seems wrong in our application but I cannot describe what happened yet.",
+            "source": "description",
+            "quote": "Something seems wrong in our application but I cannot describe what happened yet.",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Attempt to reproduce the issue in a controlled synthetic environment.",
+          "Check for any unreported UI feedback or error indicators.",
+          "Verify if the issue persists across multiple user sessions."
+        ],
+        "questions": [
+          "Is this a recurring issue or isolated to a specific user?",
+          "Are there any recent changes or updates that coincide with the issue?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The issue might be related to unhandled user input or state changes.",
+            "reason": "User reports vague error without logs or visual cues.",
+            "check": "Review backend logs for uncaught exceptions or state mismatches during user interaction."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Test with minimal user interaction",
+            "steps": "Perform basic actions without complex workflows to isolate the issue.",
+            "expected": "No error should occur if the issue is triggered by specific user actions."
+          },
+          {
+            "name": "Test with clean session",
+            "steps": "Start a new session with no prior data or state to eliminate session-related issues.",
+            "expected": "Issue should not manifest if session state is reset."
+          }
+        ]
+      }
+    },
+    "3156b6e59204": {
+      "ids": [
+        "insufficient-context"
+      ],
+      "raw": {
+        "summary": "No evidence provided; colleague reported an issue without logs or screenshots. No actionable data available for reproduction.",
+        "observations": [
+          {
+            "text": "A colleague reported a problem yesterday. No screen, logs, or steps are available.",
+            "source": "description",
+            "quote": "A colleague reported a problem yesterday. No screen, logs, or steps are available.",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Ask colleague for detailed steps and screenshots.",
+          "Request logs from backend or device.",
+          "Verify if issue persists in a fresh test environment."
+        ],
+        "questions": [
+          "What specific behavior was observed during the issue?",
+          "Was there any error message or UI feedback visible?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The issue might be environment-specific or transient.",
+            "reason": "No logs or steps provided; no evidence of persistent behavior.",
+            "check": "Confirm if issue occurs in multiple environments or devices."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Reproduce in clean environment",
+            "steps": "Start fresh test instance and attempt to replicate reported behavior without prior context.",
+            "expected": "No issue or clear reproduction path."
+          },
+          {
+            "name": "Check for recent system changes",
+            "steps": "Review system logs or configuration changes around the time of report.",
+            "expected": "Identify potential environmental triggers or conflicts."
+          }
+        ]
+      }
+    },
+    "42c41ceed5b5": {
+      "ids": [
+        "injection-text"
+      ],
+      "raw": {
+        "summary": "Save fails with 409 conflict on account screen; no success notification confirms backend save.",
+        "observations": [
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Attempt to save changes on account screen with ID 1042.",
+          "Verify server returns 409 conflict response.",
+          "Check UI for error message or feedback after save attempt."
+        ],
+        "questions": [
+          "Does the UI display an error message after the 409 response?",
+          "Is the same account ID (1042) referenced in all logs and UI?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The 409 conflict may stem from duplicate or conflicting data in the database.",
+            "reason": "Server returns 409 on PATCH request to account 1042, indicating a conflict.",
+            "check": "Verify if the account ID 1042 has conflicting data in the database or API logs."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Test with different account ID",
+            "steps": "Try saving with a different account ID to isolate if the issue is ID-specific.",
+            "expected": "Should succeed if the bug is ID-specific."
+          },
+          {
+            "name": "Test with empty fields",
+            "steps": "Save with all fields empty to see if conflict persists.",
+            "expected": "Should not trigger 409 if fields are empty."
+          }
+        ]
+      }
+    },
+    "8f4de3d5fbfc": {
+      "ids": [
+        "injection-logs"
+      ],
+      "raw": {
+        "summary": "Save UI shows success but backend returns 409 Conflict. New name missing post-refresh, suggesting UI and backend inconsistency.",
+        "observations": [
+          {
+            "text": "Account saved successfully",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "Green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Refresh page to observe name persistence",
+          "Check network tab for actual response body",
+          "Verify if 'Account name' field is updated in UI after save"
+        ],
+        "questions": [
+          "Does 'Account saved successfully' refer to UI or backend state?",
+          "Is 'Acme Global' visible in the UI after refresh?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The UI may display success without backend confirmation",
+            "reason": "UI shows success but backend returns 409 Conflict",
+            "check": "Verify if 'Account name' field is updated in UI after save"
+          }
+        ],
+        "tests": [
+          {
+            "name": "Check backend response body",
+            "steps": "Inspect network tab for actual response body after save",
+            "expected": "Should show 'VERSION_CONFLICT' error"
+          },
+          {
+            "name": "Verify UI state after refresh",
+            "steps": "Refresh page and check if 'Account name' field is updated",
+            "expected": "Should show 'Acme Global' if save was successful"
+          }
+        ]
+      }
+    }
+  },
+  "semanticReview": "See evaluation/REPORT.md and the protocol-specific semantic review. Post-hoc policy validation is not a fresh inference run or a semantic quality guarantee."
+}

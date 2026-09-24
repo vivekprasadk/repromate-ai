@@ -1,0 +1,6 @@
+import {mkdir,writeFile} from 'node:fs/promises';import {createOllama} from '../src/ollama.mjs';
+const client=createOllama();const state=await client.readiness();if(!state.ready)throw Error(state.error);
+async function request(body){const r=await fetch('http://127.0.0.1:11434/api/generate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(180000),redirect:'error'});if(!r.ok)throw Error(`Ollama HTTP ${r.status}`);return r.json();}
+await request({model:client.model,keep_alive:0});const start=performance.now();const response=await request({model:client.model,keep_alive:'10m',options:{num_gpu:0,num_ctx:8192},stream:false});
+const result={model:client.model,digest:state.digest,measuredAt:new Date().toISOString(),isolatedColdLoadMs:Math.round(performance.now()-start),ollamaLoadDurationMs:response.load_duration?response.load_duration/1e6:null,conditions:'Model explicitly unloaded then loaded with an empty generate request. CPU-only; OS file cache not cleared. No case inference included.'};
+const directory=new URL(`../evaluation/${client.model.replace(/[^a-z0-9-]/gi,'_')}/`,import.meta.url);await mkdir(directory,{recursive:true});await writeFile(new URL('cold-load.json',directory),JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

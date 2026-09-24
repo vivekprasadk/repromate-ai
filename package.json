@@ -1,1 +1,1 @@
-{"name":"repromate","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test"}}
+{"name":"repromate","version":"0.3.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test/*.test.mjs","setup":"node scripts/setup.mjs","knowledge:refresh":"node scripts/knowledge-refresh.mjs","evaluate":"node scripts/evaluate.mjs","test:browser":"node scripts/browser-tests.mjs"},"engines":{"node":">=20"}}

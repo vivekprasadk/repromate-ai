@@ -1,0 +1,13 @@
+[
+  {"url":"https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/understand-actions-action-chains.html","product":"Oracle Visual Builder","productKey":"vbcs"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/jsac---add-call-rest-action.html","product":"Oracle Visual Builder","productKey":"vbcs"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/variables-types.html","product":"Oracle Visual Builder","productKey":"vbcs"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/create-service-connection-from-rest-endpoint.html","product":"Oracle Visual Builder","productKey":"vbcs"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/data-palette.html","product":"Oracle Visual Builder","productKey":"vbcs"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/application-integration/integrations-user/troubleshoot-oic.html","product":"Oracle Integration","productKey":"oic"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/application-integration/integrations-user/determine-source-integrations-error.html","product":"Oracle Integration","productKey":"oic"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/application-integration/integrations-user/error-management.html","product":"Oracle Integration","productKey":"oic"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/application-integration/integrations-user/troubleshoot-integration-runtime.html","product":"Oracle Integration","productKey":"oic"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/application-integration/integrations-user/troubleshoot-integration-design-time.html","product":"Oracle Integration","productKey":"oic"},
+  {"url":"https://docs.oracle.com/en/cloud/paas/application-integration/integrations-user/troubleshoot-integration-activations.html","product":"Oracle Integration","productKey":"oic"}
+]

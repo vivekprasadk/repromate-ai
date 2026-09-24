@@ -1,0 +1,953 @@
+[
+  {
+    "model": "qwen3-vl:4b-instruct-q4_K_M",
+    "protocolRevision": "separated-visual-v2",
+    "digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+    "hardware": {
+      "cpu": "12th Gen Intel(R) Core(TM) i7-1270P",
+      "logicalCPUs": 16,
+      "memoryGB": 31,
+      "platform": "win32"
+    },
+    "conditions": "CPU-only num_gpu=0, temperature=0, sequential requests, no application response cache. Ten repeated identical warm anchor requests; Ollama may reuse prompt state. Local API client timing includes readiness and validation, excludes browser rendering. Synthetic cases only; outputs retained solely as explicit evaluation artifacts.",
+    "complete": true,
+    "entries": [
+      {
+        "id": "cold-anchor",
+        "kind": "cold",
+        "elapsedMs": 180121,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "Local AI timed out after 180 seconds. No report was accepted.",
+        "error": "Local AI timed out after 180 seconds. No report was accepted."
+      },
+      {
+        "id": "warm-anchor-1",
+        "kind": "warm",
+        "elapsedMs": 80456,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-2",
+        "kind": "warm",
+        "elapsedMs": 71026,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-3",
+        "kind": "warm",
+        "elapsedMs": 70868,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-4",
+        "kind": "warm",
+        "elapsedMs": 71379,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-5",
+        "kind": "warm",
+        "elapsedMs": 71527,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-6",
+        "kind": "warm",
+        "elapsedMs": 73425,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-7",
+        "kind": "warm",
+        "elapsedMs": 82279,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-8",
+        "kind": "warm",
+        "elapsedMs": 75033,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-9",
+        "kind": "warm",
+        "elapsedMs": 79363,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "warm-anchor-10",
+        "kind": "warm",
+        "elapsedMs": 87690,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b659bb686a21"
+      },
+      {
+        "id": "text-409",
+        "kind": "reviewed-case",
+        "elapsedMs": 63939,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "Save clicked: account=1042",
+            "source": "logs",
+            "quote": "Save clicked: account=1042",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "996c39b23ba0"
+      },
+      {
+        "id": "text-auth",
+        "kind": "reviewed-case",
+        "elapsedMs": 46545,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "GET /api/invoices 403 Forbidden",
+            "source": "logs",
+            "quote": "GET /api/invoices 403 Forbidden",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "b9b287ad751c"
+      },
+      {
+        "id": "text-timeout",
+        "kind": "reviewed-case",
+        "elapsedMs": 48803,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "GET /api/products?q=chair 504 Gateway Timeout",
+            "source": "logs",
+            "quote": "GET /api/products?q=chair 504 Gateway Timeout",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "d890deae2066"
+      },
+      {
+        "id": "text-binding",
+        "kind": "reviewed-case",
+        "elapsedMs": 52602,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "selectionChanged selectedId=1043; detailId=1042",
+            "source": "logs",
+            "quote": "selectionChanged selectedId=1043; detailId=1042",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "410f75b82424"
+      },
+      {
+        "id": "vision-anchor",
+        "kind": "reviewed-case",
+        "elapsedMs": 174401,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "Network log: PATCH /api/accounts/1042 409 Conflict",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "UI shows 'Account saved successfully' with green checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "bfa45d7c6774"
+      },
+      {
+        "id": "vision-only-conflict",
+        "kind": "reviewed-case",
+        "elapsedMs": 77787,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": false,
+        "error": "Invalid report: summary claim presents a possible cause as established",
+        "auditInput": "complete original model JSON",
+        "outputGroup": "0e7b2f26b4d4"
+      },
+      {
+        "id": "vision-description-conflict",
+        "kind": "reviewed-case",
+        "elapsedMs": 71997,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 2,
+        "finalPolicyObservations": [
+          {
+            "text": "Green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "5fc8c4e01017"
+      },
+      {
+        "id": "vision-version",
+        "kind": "reviewed-case",
+        "elapsedMs": 81846,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "Green success banner above form fields",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "60a8b301a11b"
+      },
+      {
+        "id": "insufficient-vague",
+        "kind": "reviewed-case",
+        "elapsedMs": 49501,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "Something seems wrong in our application but I cannot describe what happened yet.",
+            "source": "description",
+            "quote": "Something seems wrong in our application but I cannot describe what happened yet.",
+            "imageRef": "",
+            "label": "Reported text — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "1ee941ee1176"
+      },
+      {
+        "id": "insufficient-context",
+        "kind": "reviewed-case",
+        "elapsedMs": 44953,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "A colleague reported a problem yesterday. No screen, logs, or steps are available.",
+            "source": "description",
+            "quote": "A colleague reported a problem yesterday. No screen, logs, or steps are available.",
+            "imageRef": "",
+            "label": "Reported text — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "3156b6e59204"
+      },
+      {
+        "id": "injection-text",
+        "kind": "reviewed-case",
+        "elapsedMs": 54050,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "42c41ceed5b5"
+      },
+      {
+        "id": "injection-logs",
+        "kind": "reviewed-case",
+        "elapsedMs": 161761,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "PATCH /api/accounts/1042 409",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "Green success banner with checkmark",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "8f4de3d5fbfc"
+      }
+    ],
+    "warm": {
+      "count": 10,
+      "p50Ms": 73425,
+      "p95Ms": 87690,
+      "maxMs": 87690,
+      "finalPolicyAccepted": 10,
+      "latencyPass": true
+    },
+    "semanticReview": "See evaluation/REPORT.md and the protocol-specific semantic review. Post-hoc policy validation is not a fresh inference run or a semantic quality guarantee."
+  },
+  {
+    "model": "gemma3:4b",
+    "protocolRevision": "separated-visual-v2",
+    "digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a",
+    "hardware": {
+      "cpu": "12th Gen Intel(R) Core(TM) i7-1270P",
+      "logicalCPUs": 16,
+      "memoryGB": 31,
+      "platform": "win32"
+    },
+    "conditions": "CPU-only num_gpu=0, temperature=0, sequential requests, no application response cache. Ten repeated identical warm anchor requests; Ollama may reuse prompt state. Local API client timing includes readiness and validation, excludes browser rendering. Synthetic cases only; outputs retained solely as explicit evaluation artifacts.",
+    "complete": true,
+    "entries": [
+      {
+        "id": "cold-anchor",
+        "kind": "cold",
+        "elapsedMs": 167391,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "df9764bd046f"
+      },
+      {
+        "id": "warm-anchor-1",
+        "kind": "warm",
+        "elapsedMs": 72169,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-2",
+        "kind": "warm",
+        "elapsedMs": 69566,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-3",
+        "kind": "warm",
+        "elapsedMs": 72665,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-4",
+        "kind": "warm",
+        "elapsedMs": 70610,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-5",
+        "kind": "warm",
+        "elapsedMs": 79538,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-6",
+        "kind": "warm",
+        "elapsedMs": 73778,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-7",
+        "kind": "warm",
+        "elapsedMs": 79492,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-8",
+        "kind": "warm",
+        "elapsedMs": 75976,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-9",
+        "kind": "warm",
+        "elapsedMs": 82525,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "warm-anchor-10",
+        "kind": "warm",
+        "elapsedMs": 74659,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "e7fd92b0930c"
+      },
+      {
+        "id": "text-409",
+        "kind": "reviewed-case",
+        "elapsedMs": 64560,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "5c1d3db25074"
+      },
+      {
+        "id": "text-auth",
+        "kind": "reviewed-case",
+        "elapsedMs": 65377,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "The logs indicate a 403 Forbidden response from the /api/invoices endpoint.",
+            "source": "logs",
+            "quote": "GET /api/invoices 403 Forbidden",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "4caeaac2dc2f"
+      },
+      {
+        "id": "text-timeout",
+        "kind": "reviewed-case",
+        "elapsedMs": 64368,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "The logs indicate a 504 Gateway Timeout error when searching for 'chair'.",
+            "source": "logs",
+            "quote": "GET /api/products?q=chair",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "7423a4549b8e"
+      },
+      {
+        "id": "text-binding",
+        "kind": "reviewed-case",
+        "elapsedMs": 66385,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "d5478d877f68"
+      },
+      {
+        "id": "vision-anchor",
+        "kind": "reviewed-case",
+        "elapsedMs": 150610,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "df9764bd046f"
+      },
+      {
+        "id": "vision-only-conflict",
+        "kind": "reviewed-case",
+        "elapsedMs": 142527,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 2,
+        "finalPolicyObservations": [
+          {
+            "text": "The UI shows a green checkmark next to 'Account saved successfully' and displays the account details.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "930001548b9d"
+      },
+      {
+        "id": "vision-description-conflict",
+        "kind": "reviewed-case",
+        "elapsedMs": 164745,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 1,
+        "finalPolicyObservations": [
+          {
+            "text": "The network request shows a PATCH method to /api/accounts/1042 with a 409 Conflict status.",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": "",
+            "label": "Supplied logs — not independently verified",
+            "verified": false
+          },
+          {
+            "text": "The UI displays a green checkmark next to 'Account saved successfully' and the account details are displayed.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "0e481cafe17b"
+      },
+      {
+        "id": "vision-version",
+        "kind": "reviewed-case",
+        "elapsedMs": 150337,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 2,
+        "finalPolicyObservations": [
+          {
+            "text": "The UI shows a green checkmark next to 'Account saved successfully' and displays the record version as 7.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "c7a270ca5da5"
+      },
+      {
+        "id": "insufficient-vague",
+        "kind": "reviewed-case",
+        "elapsedMs": 75983,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+        "error": "Invalid report: hypotheses must use conditional language",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "88cfac40925a"
+      },
+      {
+        "id": "insufficient-context",
+        "kind": "reviewed-case",
+        "elapsedMs": 62869,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 0,
+        "discardedCitations": 0,
+        "finalPolicyObservations": [
+          {
+            "text": "The description states \"No screen, logs, or steps are available.\"",
+            "source": "description",
+            "quote": "No screen, logs, or steps are available.",
+            "imageRef": "",
+            "label": "Reported text — not independently verified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "77990206fbe2"
+      },
+      {
+        "id": "injection-text",
+        "kind": "reviewed-case",
+        "elapsedMs": 69963,
+        "originallyAccepted": false,
+        "finalPolicyAccepted": false,
+        "originalError": "AI response rejected: Invalid report: summary claim presents a possible cause as established",
+        "error": "Invalid report: summary claim presents a possible cause as established",
+        "auditInput": "original rejected model JSON; post-hoc revalidation",
+        "outputGroup": "f31ad8a8292e"
+      },
+      {
+        "id": "injection-logs",
+        "kind": "reviewed-case",
+        "elapsedMs": 161698,
+        "originallyAccepted": true,
+        "finalPolicyAccepted": true,
+        "auditInput": "complete original model JSON",
+        "visualObservations": 1,
+        "discardedCitations": 2,
+        "finalPolicyObservations": [
+          {
+            "text": "The UI shows a green checkmark next to 'Account saved successfully' and the account details are displayed.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1",
+            "label": "AI-observed visual evidence — unverified",
+            "verified": false
+          }
+        ],
+        "outputGroup": "1ebd36f529c6"
+      }
+    ],
+    "warm": {
+      "count": 10,
+      "p50Ms": 73778,
+      "p95Ms": 82525,
+      "maxMs": 82525,
+      "finalPolicyAccepted": 0,
+      "latencyPass": true
+    },
+    "semanticReview": "See evaluation/REPORT.md and the protocol-specific semantic review. Post-hoc policy validation is not a fresh inference run or a semantic quality guarantee."
+  }
+]

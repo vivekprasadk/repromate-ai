@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-18",
+  "model": "qwen3-vl:4b-instruct-q4_K_M",
+  "digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "execution": "CPU-only; synthetic sample; genuine local Ollama through browser and local HTTP service",
+  "attempts": [
+    {"run": "2026-09-18T16-50-26-225Z", "passed": false, "reason": "Ollama HTTP 500; both approved models resident; runtime log showed CPU allocation failure"},
+    {"run": "2026-09-18T16-54-29-244Z", "passed": false, "reason": "180-second inference timeout on fresh image after unloading both models and preloading only Qwen"},
+    {"run": "2026-09-18T16-58-19-422Z", "passed": false, "applicationReportRendered": true, "serverProcessingMs": 82115, "reason": "Harness assertion was case-sensitive, while CSS displays the correct visual badge in uppercase; assertion subsequently corrected"},
+    {"run": "2026-09-18T17-01-10-683Z", "passed": true, "submissionToRenderedMs": 75641, "serverProcessingMs": 75483, "visualEvidenceUsed": true, "discardedCitationCount": 1, "matchingMarkdownAndJSON": true, "externalBrowserRequests": []}
+  ],
+  "conditions": "Final successful attempt reused the identical warm input and benefited from Ollama prompt/image state. One successful UI smoke test is not a latency percentile or fresh-input guarantee. Raw artifacts and screenshots are retained locally under output/playwright/real-ai/.",
+  "overallDemoReady": false
+}

@@ -1,0 +1,8 @@
+{
+  "model": "qwen3-vl:4b-instruct-q4_K_M",
+  "digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "measuredAt": "2026-09-18T15:01:56.866Z",
+  "isolatedColdLoadMs": 13997,
+  "ollamaLoadDurationMs": null,
+  "conditions": "Model explicitly unloaded then loaded with an empty generate request. CPU-only; OS file cache not cleared. No case inference included."
+}

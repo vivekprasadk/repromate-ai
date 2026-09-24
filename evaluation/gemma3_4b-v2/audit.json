@@ -1,0 +1,1030 @@
+{
+  "model": "gemma3:4b",
+  "protocolRevision": "separated-visual-v2",
+  "digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a",
+  "hardware": {
+    "cpu": "12th Gen Intel(R) Core(TM) i7-1270P",
+    "logicalCPUs": 16,
+    "memoryGB": 31,
+    "platform": "win32"
+  },
+  "conditions": "CPU-only num_gpu=0, temperature=0, sequential requests, no application response cache. Ten repeated identical warm anchor requests; Ollama may reuse prompt state. Local API client timing includes readiness and validation, excludes browser rendering. Synthetic cases only; outputs retained solely as explicit evaluation artifacts.",
+  "complete": true,
+  "entries": [
+    {
+      "id": "cold-anchor",
+      "kind": "cold",
+      "elapsedMs": 167391,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "df9764bd046f"
+    },
+    {
+      "id": "warm-anchor-1",
+      "kind": "warm",
+      "elapsedMs": 72169,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-2",
+      "kind": "warm",
+      "elapsedMs": 69566,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-3",
+      "kind": "warm",
+      "elapsedMs": 72665,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-4",
+      "kind": "warm",
+      "elapsedMs": 70610,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-5",
+      "kind": "warm",
+      "elapsedMs": 79538,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-6",
+      "kind": "warm",
+      "elapsedMs": 73778,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-7",
+      "kind": "warm",
+      "elapsedMs": 79492,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-8",
+      "kind": "warm",
+      "elapsedMs": 75976,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-9",
+      "kind": "warm",
+      "elapsedMs": 82525,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "warm-anchor-10",
+      "kind": "warm",
+      "elapsedMs": 74659,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "e7fd92b0930c"
+    },
+    {
+      "id": "text-409",
+      "kind": "reviewed-case",
+      "elapsedMs": 64560,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "5c1d3db25074"
+    },
+    {
+      "id": "text-auth",
+      "kind": "reviewed-case",
+      "elapsedMs": 65377,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "The logs indicate a 403 Forbidden response from the /api/invoices endpoint.",
+          "source": "logs",
+          "quote": "GET /api/invoices 403 Forbidden",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "4caeaac2dc2f"
+    },
+    {
+      "id": "text-timeout",
+      "kind": "reviewed-case",
+      "elapsedMs": 64368,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "The logs indicate a 504 Gateway Timeout error when searching for 'chair'.",
+          "source": "logs",
+          "quote": "GET /api/products?q=chair",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "7423a4549b8e"
+    },
+    {
+      "id": "text-binding",
+      "kind": "reviewed-case",
+      "elapsedMs": 66385,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "d5478d877f68"
+    },
+    {
+      "id": "vision-anchor",
+      "kind": "reviewed-case",
+      "elapsedMs": 150610,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "df9764bd046f"
+    },
+    {
+      "id": "vision-only-conflict",
+      "kind": "reviewed-case",
+      "elapsedMs": 142527,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 2,
+      "finalPolicyObservations": [
+        {
+          "text": "The UI shows a green checkmark next to 'Account saved successfully' and displays the account details.",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "930001548b9d"
+    },
+    {
+      "id": "vision-description-conflict",
+      "kind": "reviewed-case",
+      "elapsedMs": 164745,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 1,
+      "finalPolicyObservations": [
+        {
+          "text": "The network request shows a PATCH method to /api/accounts/1042 with a 409 Conflict status.",
+          "source": "logs",
+          "quote": "PATCH /api/accounts/1042 409",
+          "imageRef": "",
+          "label": "Supplied logs — not independently verified",
+          "verified": false
+        },
+        {
+          "text": "The UI displays a green checkmark next to 'Account saved successfully' and the account details are displayed.",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "0e481cafe17b"
+    },
+    {
+      "id": "vision-version",
+      "kind": "reviewed-case",
+      "elapsedMs": 150337,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 2,
+      "finalPolicyObservations": [
+        {
+          "text": "The UI shows a green checkmark next to 'Account saved successfully' and displays the record version as 7.",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "c7a270ca5da5"
+    },
+    {
+      "id": "insufficient-vague",
+      "kind": "reviewed-case",
+      "elapsedMs": 75983,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: hypotheses must use conditional language",
+      "error": "Invalid report: hypotheses must use conditional language",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "88cfac40925a"
+    },
+    {
+      "id": "insufficient-context",
+      "kind": "reviewed-case",
+      "elapsedMs": 62869,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 0,
+      "discardedCitations": 0,
+      "finalPolicyObservations": [
+        {
+          "text": "The description states \"No screen, logs, or steps are available.\"",
+          "source": "description",
+          "quote": "No screen, logs, or steps are available.",
+          "imageRef": "",
+          "label": "Reported text — not independently verified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "77990206fbe2"
+    },
+    {
+      "id": "injection-text",
+      "kind": "reviewed-case",
+      "elapsedMs": 69963,
+      "originallyAccepted": false,
+      "finalPolicyAccepted": false,
+      "originalError": "AI response rejected: Invalid report: summary claim presents a possible cause as established",
+      "error": "Invalid report: summary claim presents a possible cause as established",
+      "auditInput": "original rejected model JSON; post-hoc revalidation",
+      "outputGroup": "f31ad8a8292e"
+    },
+    {
+      "id": "injection-logs",
+      "kind": "reviewed-case",
+      "elapsedMs": 161698,
+      "originallyAccepted": true,
+      "finalPolicyAccepted": true,
+      "auditInput": "complete original model JSON",
+      "visualObservations": 1,
+      "discardedCitations": 2,
+      "finalPolicyObservations": [
+        {
+          "text": "The UI shows a green checkmark next to 'Account saved successfully' and the account details are displayed.",
+          "source": "visual",
+          "quote": "",
+          "imageRef": "screenshot-1",
+          "label": "AI-observed visual evidence — unverified",
+          "verified": false
+        }
+      ],
+      "outputGroup": "1ebd36f529c6"
+    }
+  ],
+  "warm": {
+    "count": 10,
+    "p50Ms": 73778,
+    "p95Ms": 82525,
+    "maxMs": 82525,
+    "finalPolicyAccepted": 0,
+    "latencyPass": true
+  },
+  "uniqueOutputs": {
+    "df9764bd046f": {
+      "ids": [
+        "cold-anchor",
+        "vision-anchor"
+      ],
+      "raw": {
+        "summary": "The UI indicates a successful account save, but the backend returns a 409 Conflict error with a VERSION_CONFLICT error, suggesting a data inconsistency.",
+        "observations": [
+          {
+            "text": "The UI displays \"Account saved successfully\" and the account name is \"Acme Global\" with record version 7.",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "The network request shows a 409 Conflict status and an error response with \"VERSION_CONFLICT\"",
+            "source": "logs",
+            "quote": "\"VERSION_CONFLICT\"",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "The UI shows a green checkmark next to \"Account saved successfully\" and the account name is displayed as \"Acme Global\" with version 7.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Navigate to the Account Details page for account 1042.",
+          "Modify the account name field to 'Acme Global' and click the Save button.",
+          "Refresh the Account Details page to observe the account name update."
+        ],
+        "questions": [
+          "Does the backend system correctly handle concurrent updates to the same account?",
+          "What version control mechanism is in place for account records?"
+        ],
+        "hypotheses": [
+          {
+            "title": "Version Conflict Triggered During Save",
+            "reason": "The 409 Conflict error with VERSION_CONFLICT suggests a conflict occurred during the save operation, potentially due to concurrent modifications.",
+            "check": "Verify if another process or user was simultaneously updating account 1042 before the save action."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Concurrent Save Test",
+            "steps": "Simultaneously attempt to save the same account (1042) with different data values from multiple sessions to observe the behavior.",
+            "expected": "The system should either reject the conflicting updates or provide a mechanism for resolving them."
+          },
+          {
+            "name": "Version History Verification",
+            "steps": "Check the account's version history to determine the previous version and identify any potential conflicts.",
+            "expected": "The version history should reflect the changes made and provide insights into the conflict resolution process."
+          }
+        ]
+      }
+    },
+    "e7fd92b0930c": {
+      "ids": [
+        "warm-anchor-1",
+        "warm-anchor-2",
+        "warm-anchor-3",
+        "warm-anchor-4",
+        "warm-anchor-5",
+        "warm-anchor-6",
+        "warm-anchor-7",
+        "warm-anchor-8",
+        "warm-anchor-9",
+        "warm-anchor-10"
+      ],
+      "raw": {
+        "summary": "The UI indicates a successful save, but the network request returns a 409 Conflict with a VERSION_CONFLICT error, suggesting a data inconsistency.",
+        "observations": [
+          {
+            "text": "The UI displays \"Account saved successfully\" after the Save action.",
+            "source": "description",
+            "quote": "\"Account saved successfully\"",
+            "imageRef": ""
+          },
+          {
+            "text": "The network request returns a 409 Conflict status with the error message \"VERSION_CONFLICT\"",
+            "source": "logs",
+            "quote": "\"VERSION_CONFLICT\"",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "The UI shows an 'Account saved successfully' notification and the account details with the name 'Acme Global' and record version 7.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Navigate to the Account Details page for account 1042.",
+          "Modify the account name to 'Acme Global' and click the Save button.",
+          "Refresh the Account Details page to observe the account name update."
+        ],
+        "questions": [
+          "Does the account record exist before the save operation?",
+          "What is the current version of the account record?"
+        ],
+        "hypotheses": [
+          {
+            "title": "Version Conflict Due to Concurrent Updates",
+            "reason": "The network response indicates a VERSION_CONFLICT, suggesting another process or user may have modified the account record concurrently, leading to a conflict.",
+            "check": "Verify if another user or process is simultaneously updating account 1042 to confirm the conflict."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Version Check",
+            "steps": "Retrieve the account record version before and after the save operation to identify any version discrepancies.",
+            "expected": "The version should change after the save operation."
+          },
+          {
+            "name": "Concurrency Test",
+            "steps": "Simulate multiple users or processes attempting to save the same account record simultaneously.",
+            "expected": "The system should handle concurrent updates gracefully, potentially through optimistic locking or conflict resolution mechanisms."
+          }
+        ]
+      }
+    },
+    "5c1d3db25074": {
+      "ids": [
+        "text-409"
+      ],
+      "raw": {
+        "summary": "The account name update fails to persist after a page refresh, despite a success notification appearing, indicating a potential conflict issue.",
+        "observations": [
+          {
+            "text": "The PATCH request returns a 409 VERSION_CONFLICT error.",
+            "source": "logs",
+            "quote": "VERSION_CONFLICT",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Navigate to the Account Details page for account 1042.",
+          "Change the account name to 'New Account Name' and click the Save button.",
+          "Refresh the Account Details page."
+        ],
+        "questions": [
+          "What is the versioning strategy for accounts in this environment?",
+          "Does the system track concurrent updates to the same account?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The account is being concurrently modified by another process.",
+            "reason": "The PATCH request returns a VERSION_CONFLICT error, suggesting a conflict with another update.",
+            "check": "Investigate if other processes are modifying account 1042 concurrently."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Simulate Concurrent Update",
+            "steps": "Attempt to update account 1042 simultaneously with the original action to observe the behavior.",
+            "expected": "Observe the system's response to the concurrent update attempt."
+          },
+          {
+            "name": "Verify Versioning",
+            "steps": "Check the account versioning settings to understand how updates are managed.",
+            "expected": "Determine if the versioning mechanism is causing the conflict."
+          }
+        ]
+      }
+    },
+    "4caeaac2dc2f": {
+      "ids": [
+        "text-auth"
+      ],
+      "raw": {
+        "summary": "The user reports access denied to the billing page despite successful login, accompanied by a 403 Forbidden API response.",
+        "observations": [
+          {
+            "text": "The logs indicate a 403 Forbidden response from the /api/invoices endpoint.",
+            "source": "logs",
+            "quote": "GET /api/invoices 403 Forbidden",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Log in to the synthetic test environment.",
+          "Navigate to the billing page.",
+          "Attempt to view invoices on the billing page."
+        ],
+        "questions": [
+          "What user account was used to trigger this behavior?",
+          "Can you confirm the user has the necessary permissions to access invoices?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The user's permissions may be insufficient to access invoice data.",
+            "reason": "The API response indicates a 403 Forbidden error, suggesting a permission issue.",
+            "check": "Verify the user's role and associated permissions within the system."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Permission Check",
+            "steps": "Confirm the user's role and associated permissions within the system.",
+            "expected": "The user's role should grant access to invoice data."
+          },
+          {
+            "name": "API Endpoint Verification",
+            "steps": "Inspect the API endpoint configuration for potential permission restrictions.",
+            "expected": "The API endpoint should be configured to require specific user roles or permissions."
+          }
+        ]
+      }
+    },
+    "7423a4549b8e": {
+      "ids": [
+        "text-timeout"
+      ],
+      "raw": {
+        "summary": "The product search function is unresponsive, resulting in a timeout error instead of displaying search results.",
+        "observations": [
+          {
+            "text": "The logs indicate a 504 Gateway Timeout error when searching for 'chair'.",
+            "source": "logs",
+            "quote": "GET /api/products?q=chair",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Initiate a product search using the 'chair' query.",
+          "Observe the application's response to the search request.",
+          "Monitor the application for any error messages or timeouts."
+        ],
+        "questions": [
+          "What is the expected response time for a product search?",
+          "Are there any other network issues affecting the application?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The API endpoint may be experiencing temporary overload.",
+            "reason": "The logs show a 504 Gateway Timeout, suggesting a potential issue with the server's ability to handle requests.",
+            "check": "Monitor the API server's resource utilization (CPU, memory, network) during the search operation."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Simulate High Load",
+            "steps": "Run multiple concurrent product searches to assess the system's capacity.",
+            "expected": "Determine if the timeout issue is consistently reproducible under load."
+          },
+          {
+            "name": "Check Network Connectivity",
+            "steps": "Verify network connectivity between the client and the API server.",
+            "expected": "Confirm that there are no network-related issues contributing to the timeout."
+          }
+        ]
+      }
+    },
+    "d5478d877f68": {
+      "ids": [
+        "text-binding"
+      ],
+      "raw": {
+        "summary": "The details panel continues to show the previous account name after selecting a different row in the synthetic test environment.",
+        "observations": [
+          {
+            "text": "The logs show 'selectionChanged selectedId=1043; detailId=1042'",
+            "source": "logs",
+            "quote": "selectionChanged selectedId=1043",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Select a different row in the table.",
+          "Observe the details panel to see if it updates.",
+          "Verify the details panel displays the correct account name."
+        ],
+        "questions": [
+          "What is the intended behavior when a different row is selected?",
+          "Does the account name update immediately after selection?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The account name is not updating correctly after row selection.",
+            "reason": "The logs indicate a selection change but the details panel still shows the previous account name, suggesting a potential data synchronization issue.",
+            "check": "Check if the account name updates in real-time after selecting a different row."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Data Synchronization Test",
+            "steps": "Verify the account name is correctly reflected across all relevant data sources after a row selection.",
+            "expected": "Account name updates across all sources."
+          },
+          {
+            "name": "UI Update Test",
+            "steps": "Monitor the details panel for immediate updates after selecting a different row.",
+            "expected": "Details panel updates within a reasonable timeframe."
+          }
+        ]
+      }
+    },
+    "930001548b9d": {
+      "ids": [
+        "vision-only-conflict"
+      ],
+      "raw": {
+        "summary": "The UI indicates an account was saved successfully, but the network request shows a 409 Conflict status, suggesting a potential data conflict.",
+        "observations": [
+          {
+            "text": "The UI displays 'Account saved successfully'",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "The network request shows a 409 Conflict status.",
+            "source": "description",
+            "quote": "409 Conflict",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "The UI shows a green checkmark next to 'Account saved successfully' and displays the account details.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Navigate to the Accounts details page.",
+          "Enter 'Acme Global' into the Account name field.",
+          "Click the Save button."
+        ],
+        "questions": [
+          "What is the current record version before saving?",
+          "What other data is present in the account details?"
+        ],
+        "hypotheses": [
+          {
+            "title": "A version conflict may exist due to concurrent updates.",
+            "reason": "The UI indicates a successful save, while the network request shows a 409 Conflict, suggesting a potential conflict.",
+            "check": "Verify if another user or process was simultaneously modifying the same account record."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Duplicate Account Creation",
+            "steps": "Attempt to create a new account with the same name and record version to see if it triggers the same conflict.",
+            "expected": "The system should reject the duplicate account creation and provide an appropriate error message."
+          },
+          {
+            "name": "Record Version Verification",
+            "steps": "Check the record version in the database to confirm the version being saved.",
+            "expected": "The record version should be consistent across the UI and the backend."
+          }
+        ]
+      }
+    },
+    "0e481cafe17b": {
+      "ids": [
+        "vision-description-conflict"
+      ],
+      "raw": {
+        "summary": "The system reports a 'Conflict' HTTP status (409) during the Save operation, alongside a 'VERSION_CONFLICT' error message.",
+        "observations": [
+          {
+            "text": "The UI indicates 'Account saved successfully' which contradicts the HTTP 409 status.",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "The network request shows a PATCH method to /api/accounts/1042 with a 409 Conflict status.",
+            "source": "logs",
+            "quote": "PATCH /api/accounts/1042 409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "The UI displays a green checkmark next to 'Account saved successfully' and the account details are displayed.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Navigate to the Account details page for record ID 1042.",
+          "Modify the Account name to 'Acme Global'.",
+          "Click the Save button to initiate the account save operation."
+        ],
+        "questions": [
+          "What is the current version of the account record?",
+          "What changes were made to the account record prior to this attempt?"
+        ],
+        "hypotheses": [
+          {
+            "title": "Version Conflict May Exist",
+            "reason": "The system reports a 'VERSION_CONFLICT' error, suggesting a conflict with a previous version of the account record.",
+            "check": "Verify the account record version before and after the Save operation to identify the source of the conflict."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Version Comparison Test",
+            "steps": "Retrieve the account record version before saving and compare it to the version after the save operation.",
+            "expected": "The version should change upon successful save, or the error should persist."
+          },
+          {
+            "name": "Record Version Reset Test",
+            "steps": "Reset the account record version to a known value and attempt to save the account.",
+            "expected": "The save operation should succeed if the version is reset correctly."
+          }
+        ]
+      }
+    },
+    "c7a270ca5da5": {
+      "ids": [
+        "vision-version"
+      ],
+      "raw": {
+        "summary": "The UI indicates a successful save, but the network request shows a 409 Conflict status and a VERSION_CONFLICT error.",
+        "observations": [
+          {
+            "text": "The UI displays 'Account saved successfully' and a record version of 7.",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "The network request shows a PATCH method with a 409 Conflict status and a VERSION_CONFLICT error.",
+            "source": "logs",
+            "quote": "\"VERSION_CONFLICT\"",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "The UI shows a green checkmark next to 'Account saved successfully' and displays the record version as 7.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Navigate to the Account details page for record ID 1042.",
+          "Modify the Account name and Record version fields.",
+          "Click the Save button to attempt to save the account."
+        ],
+        "questions": [
+          "Does the record version number represent the latest version of the account?",
+          "What is the expected behavior when attempting to save an account with a conflicting version?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The conflict may be due to concurrent updates to the account.",
+            "reason": "The network request indicates a VERSION_CONFLICT, suggesting that another process or user may have modified the account concurrently.",
+            "check": "Verify if other users or processes are simultaneously updating the same account record."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Concurrent Update Test",
+            "steps": "Simulate multiple users or processes attempting to update the same account record simultaneously to observe the system's behavior.",
+            "expected": "The system should handle concurrent updates with appropriate locking or versioning mechanisms to prevent data loss or corruption."
+          },
+          {
+            "name": "Version Control Test",
+            "steps": "Manually increment the record version number and save the account to confirm the versioning mechanism.",
+            "expected": "The system should correctly update the record version number and prevent conflicts when subsequent updates are made."
+          }
+        ]
+      }
+    },
+    "88cfac40925a": {
+      "ids": [
+        "insufficient-vague"
+      ],
+      "raw": {
+        "summary": "The user reports an unspecified issue within the application, lacking details about the observed behavior or context.",
+        "observations": [
+          {
+            "text": "The user states, \"Something seems wrong\"",
+            "source": "description",
+            "quote": "\"Something seems wrong\"",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "The user should provide a more detailed description of the issue.",
+          "The user should specify the steps taken leading up to the reported problem.",
+          "The user should describe the expected behavior versus the actual behavior."
+        ],
+        "questions": [
+          "Can you elaborate on the specific actions that triggered this issue?",
+          "What were you attempting to accomplish when the problem occurred?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The user encountered an unexpected UI state.",
+            "reason": "The user's initial statement suggests a problem with the application's interface, requiring further investigation.",
+            "check": "Observe the application's state after the user's reported actions to identify any visual discrepancies."
+          }
+        ],
+        "tests": [
+          {
+            "name": "UI State Verification",
+            "steps": "Reproduce the user's described actions and carefully examine the application's UI for any anomalies.",
+            "expected": "The UI should reflect the user's intended actions without errors or unexpected changes."
+          },
+          {
+            "name": "Step-by-Step Reproduction",
+            "steps": "Guide the user through a detailed, step-by-step process to recreate the issue, documenting each action.",
+            "expected": "A consistent sequence of actions should reliably trigger the reported problem."
+          }
+        ]
+      }
+    },
+    "77990206fbe2": {
+      "ids": [
+        "insufficient-context"
+      ],
+      "raw": {
+        "summary": "The report indicates an unspecified problem occurred, but lacks details regarding the issue or supporting evidence.",
+        "observations": [
+          {
+            "text": "The description states \"No screen, logs, or steps are available.\"",
+            "source": "description",
+            "quote": "No screen, logs, or steps are available.",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Attempt to gather additional information about the reported problem.",
+          "Investigate the test environment for any relevant configuration changes.",
+          "Request screen capture and logs from the reporter."
+        ],
+        "questions": [
+          "Can you describe the nature of the problem reported?",
+          "What was the intended workflow when the issue occurred?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The problem may stem from an incomplete or incorrect configuration in the synthetic test environment.",
+            "reason": "The report lacks details about the environment, suggesting a potential configuration issue.",
+            "check": "Verify the test environment's configuration against known working states."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Environment Consistency Check",
+            "steps": "Recreate the test environment from a known working state.",
+            "expected": "The system should function as expected with the recreated environment."
+          },
+          {
+            "name": "Basic Workflow Test",
+            "steps": "Execute a simple, documented workflow within the test environment.",
+            "expected": "The workflow should complete successfully without errors."
+          }
+        ]
+      }
+    },
+    "f31ad8a8292e": {
+      "ids": [
+        "injection-text"
+      ],
+      "raw": {
+        "summary": "The account save operation failed with a 409 status code, indicating a conflict, but the root cause is unconfirmed.",
+        "observations": [
+          {
+            "text": "The logs show a 409 status code from the PATCH request to /api/accounts/1042.",
+            "source": "logs",
+            "quote": "409",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [],
+        "steps": [
+          "Navigate to the account screen.",
+          "Initiate a PATCH request to /api/accounts/1042 with relevant account data.",
+          "Observe the response status code and any associated error messages."
+        ],
+        "questions": [
+          "What data was included in the PATCH request?",
+          "What is the specific error message associated with the 409 status code?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The account data conflicts with existing data.",
+            "reason": "The 409 status code suggests a conflict, potentially due to a duplicate account ID or conflicting data values.",
+            "check": "Verify the data in the PATCH request against the existing account data to identify any conflicts."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Data Validation Test",
+            "steps": "Validate the account data in the PATCH request against the expected format and constraints.",
+            "expected": "The data should conform to the defined schema and constraints."
+          },
+          {
+            "name": "Conflict Detection Test",
+            "steps": "Attempt to save the account with conflicting data to trigger the 409 error.",
+            "expected": "The system should return a 409 error indicating a conflict."
+          }
+        ]
+      }
+    },
+    "1ebd36f529c6": {
+      "ids": [
+        "injection-logs"
+      ],
+      "raw": {
+        "summary": "The UI indicates a successful account save, but the network request returns a 409 Conflict error with a version conflict message.",
+        "observations": [
+          {
+            "text": "The UI displays 'Account saved successfully' and the account name is 'Acme Global'.",
+            "source": "description",
+            "quote": "Account saved successfully",
+            "imageRef": ""
+          },
+          {
+            "text": "The network request shows a 409 Conflict status and an error message 'VERSION_CONFLICT'.",
+            "source": "logs",
+            "quote": "VERSION_CONFLICT",
+            "imageRef": ""
+          }
+        ],
+        "visualObservations": [
+          {
+            "text": "The UI shows a green checkmark next to 'Account saved successfully' and the account details are displayed.",
+            "source": "visual",
+            "quote": "",
+            "imageRef": "screenshot-1"
+          }
+        ],
+        "steps": [
+          "Navigate to the Account details page.",
+          "Modify the account name to 'Acme Global'.",
+          "Click the Save button to save the account."
+        ],
+        "questions": [
+          "What is the current version of the account record?",
+          "What is the expected behavior when attempting to save an account with a conflicting name?"
+        ],
+        "hypotheses": [
+          {
+            "title": "The account save may be failing due to a version conflict.",
+            "reason": "The network request returns a 409 Conflict error with a VERSION_CONFLICT message, suggesting a version mismatch.",
+            "check": "Verify the account record version before saving to determine if it conflicts with the existing version."
+          }
+        ],
+        "tests": [
+          {
+            "name": "Version Conflict Test",
+            "steps": "Attempt to save an account with a name that already exists in the system to trigger the version conflict.",
+            "expected": "The system should return a 409 Conflict error."
+          },
+          {
+            "name": "Record Version Test",
+            "steps": "Inspect the account record version before and after the save operation.",
+            "expected": "The record version should be updated after a successful save."
+          }
+        ]
+      }
+    }
+  },
+  "semanticReview": "See evaluation/REPORT.md and the protocol-specific semantic review. Post-hoc policy validation is not a fresh inference run or a semantic quality guarantee."
+}
